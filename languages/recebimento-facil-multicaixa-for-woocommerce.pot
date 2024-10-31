@@ -1,0 +1,568 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Recebimento Fácil - Multicaixa payment by reference for "
+"WooCommerce\n"
+"POT-Creation-Date: 2023-11-28 10:40+0000\n"
+"PO-Revision-Date: 2022-11-04 17:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: recebimento-facil-multicaixa-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:37
+msgid "Multicaixa payment by reference - Banco Económico"
+msgstr ""
+
+#. Description of the plugin/theme
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:38
+msgid ""
+"This plugin allows customers with an Angolan bank account to pay WooCommerce "
+"orders using Multicaixa (Pag. por Referência) through the Banco Económico "
+"payment gateway."
+msgstr ""
+
+#. translators: %s : number of days
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:125
+#, php-format
+msgid "Today + %s day"
+msgid_plural "Today + %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:128
+msgid "End of same day (not recommended)"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:129
+msgid "Minimum recommended"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:134
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:136
+msgid "Enable \"Multicaixa payment by reference\""
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:140
+msgid "Security Username"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:142
+msgid "The authentication Security Username provided by Banco Económico."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:145
+msgid "Security Password"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:147
+msgid "The authentication Security Password provided by Banco Económico."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:150
+msgid "Header Source"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:152
+msgid "The Header Source provided by Banco Económico."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:155
+msgid "Test mode enabled."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:157
+msgid "Live mode enabled."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:161
+msgid "Header User ID"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:163
+msgid "The Header User ID provided by Banco Económico."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:166
+msgid "Token"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:168
+msgid "The authentication Token provided by Banco Económico."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:171
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:352
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:588
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:693
+#: includes/class-wpwc-recebimentofacil.php:867
+msgid "Entity"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:173
+msgid "Entity provided by Banco Económico."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:183
+msgid "Title"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:185
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:189
+msgid "Description"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:191
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:195
+msgid "Extra instructions"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:197
+msgid ""
+"This controls the text which the user sees below the payment details on the "
+"\"Thank you\" page and \"New order\" email."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:204
+#, php-format
+msgid ""
+"You should translate this string in %sWPML - String Translation%s after "
+"saving the settings"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:211
+msgid ""
+"The receipt issued by the Multicaixa ATM is a proof of payment. Keep it."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:214
+msgid "Reference validity"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:216
+msgid "The number of days the reference should be valid for payment."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:221
+msgid "Only for Angolan customers?"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:223
+msgid "Enable only for customers whose address is in Angola"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:227
+msgid "Only for orders above"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:229
+msgid ""
+"Enable only for orders above x Kz (exclusive). Leave blank (or zero) to "
+"allow for any order value."
+msgstr ""
+
+#. translators: %1$s: value from, %2$s: value to
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:232
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:249
+#, php-format
+msgid ""
+"By design, Multicaixa only allows payments from %1$s to %2$s (inclusive). "
+"You can use this option to further limit this range."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:244
+msgid "Only for orders below"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:246
+msgid ""
+"Enable only for orders below x Kz (exclusive). Leave blank (or zero) to "
+"allow for any order value."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:261
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:263
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:266
+#, php-format
+msgid "Log plugin events in %s"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:269
+msgid "WooCommerce &gt; Status &gt; Logs"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:304
+msgid "Return to payments"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:307
+msgid "In order to use this plugin you need to:"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:313
+#, php-format
+msgid "Set WooCommerce currency to <strong>Angolan Kwanza</strong> %1$s"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:319
+msgid "Use SSL/HTPS on your website"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:320
+msgid ""
+"Make sure TCP port 8443 is open on the firewall for outbound communication "
+"to <strong>spf-webservices.bancoeconomico.ao</strong> (ask your hosting "
+"company to check this)"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:325
+#, php-format
+msgid ""
+"Sign a contract with %s. and fill out all the details (<strong>Security "
+"Username, Security Password, Header Source, Header User ID, Token and "
+"Entity</strong>) provided by <strong>Banco Económico</strong> in the fields "
+"below."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:333
+#, php-format
+msgid "To know more about this service, please go to %s"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:338
+msgid ""
+"Inform Banco Económico about your server IP address so that they can allow "
+"requests from it. If you're not sure about the IP, ask your hosting company "
+"for it."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:340
+msgid ""
+"Make sure you never use the same details on more than one website/system or "
+"the payment notification will fail (additional accounts should be requested "
+"to the bank if needed)"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:346
+#, php-format
+msgid ""
+"Request the callback activation, in order to get automatic payment "
+"confirmations on WooCommerce, by sending an email to %1$s indicating:"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:351
+msgid "User ID"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:353
+msgid "Payment notification URL"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:354
+msgid "Payment notification token"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:367
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:383
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:399
+msgid "ERROR!"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:370
+#, php-format
+msgid "Set WooCommerce currency to Angolan Kwanza %1$s"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:371
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:387
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:403
+msgid "here"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:386
+msgid "You need to use SSL/HTTP on your website"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:402
+msgid ""
+"You need to enable SOAP support on PHP - please contact your hosting company"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:433
+msgid ""
+"Set the Source, User ID, Password, Token and Entity provided by Banco "
+"Económico and Save changes to set other plugin options."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:520
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:658
+msgid "Error getting Multicaixa payment details"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:578
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:687
+msgid "Payment instructions"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:592
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:697
+#: includes/class-wpwc-recebimentofacil.php:869
+msgid "Reference"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:596
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:701
+#: includes/class-wpwc-recebimentofacil.php:871
+msgid "Value"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:600
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:705
+#: includes/class-wpwc-recebimentofacil.php:873
+msgid "Validity"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:723
+msgid "Multicaixa payment received."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:725
+msgid "We will now process your order."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil-woocommerce.php:738
+msgid "Waiting for the Multicaixa payment."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:101
+msgid "Multicaixa settings"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:116
+msgid "Commercial information"
+msgstr ""
+
+#. translators: %s: Institution name
+#: includes/class-wpwc-recebimentofacil.php:121
+#: includes/class-wpwc-recebimentofacil.php:131
+#, php-format
+msgid "Please contact %s"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:127
+msgid "Technical support"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:136
+msgid "Request support here"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:137
+msgid "Please rate our plugin at WordPress.org"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:264
+msgid ""
+"Authentication error. The shop administrator needs to insert the proper "
+"credentials."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:275
+msgid ""
+"The shop administrator needs to make sure all the configurations are "
+"correctly set."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:303
+#, php-format
+msgid "It’s not possible to use %1$s to pay values under %2$s."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:310
+#, php-format
+msgid "It’s not possible to use %1$s to pay values above %2$s."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:399
+#: includes/class-wpwc-recebimentofacil.php:492
+#: includes/class-wpwc-recebimentofacil.php:495
+#: includes/class-wpwc-recebimentofacil.php:605
+#: includes/class-wpwc-recebimentofacil.php:608
+#: includes/class-wpwc-recebimentofacil.php:991
+msgid "Unknown error"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:402
+msgid "No description available"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:405
+msgid "Error contacting Banco Económico system to create Multicaixa Payment:"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:408
+msgid ""
+"Configuration error. This payment method is disabled because required "
+"information (Entity, User ID, Password or Token) was not set by the shop "
+"administrator."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:497
+msgid "Error contacting Banco Económico system to query Multicaixa Payment:"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:511
+msgid "Order not found"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:528
+msgid "Multicaixa payment reference cancelled"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:610
+msgid "Error contacting Banco Económico system to cancel Multicaixa Payment:"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:720
+#: includes/class-wpwc-recebimentofacil.php:794
+msgid "Multicaixa payment received"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:794
+msgid "manually checked"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:797
+#: includes/class-wpwc-recebimentofacil.php:990
+msgid ""
+"This page will now reload. If the order is not set as paid and processing "
+"(or completed, if it only contains virtual and downloadable products) please "
+"check the debug logs."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:813
+msgid "The reference is still active and not paid for"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:815
+msgid "The reference is inactive"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:817
+msgid "The reference is expired and was not paid for"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:819
+msgid "The reference is canceled"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:821
+msgid "The reference is paid"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:823
+msgid "Could not get the reference status"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:835
+#: includes/class-wpwc-recebimentofacil.php:844
+msgid "Recebimento Fácil - Multicaixa"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:849
+msgid "Recebimento Fácil"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:878
+msgid "Awaiting Multicaixa payment."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:881
+msgid "Check payment status"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:892
+msgid "Simulate payment"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:906
+msgid "Paid"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:915
+msgid "Canceled"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:923
+msgid "No details available"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:924
+msgid ""
+"This must be an error because the payment method of this order is Multicaixa"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:929
+msgid "This order does not have Multicaixa as the payment gateway."
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:989
+msgid ""
+"This is a testing tool and will set the order as paid. Are you sure you want "
+"to proceed?"
+msgstr ""
+
+#: includes/class-wpwc-recebimentofacil.php:992
+msgid "Error"
+msgstr ""
+
+#. translators: %s: WooCommerce Version
+#: recebimento-facil-multicaixa-for-woocommerce.php:69
+#, php-format
+msgid ""
+"<strong>Recebimento Fácil - Multicaixa payment by reference for WooCommerce</"
+"strong> requires <strong>WooCommerce %s</strong> or above."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Recebimento Fácil - Multicaixa payment by reference for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.bancoeconomico.ao/pt/empresas/servicos/recebimento-facil/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Banco Económico"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.bancoeconomico.ao"
+msgstr ""
